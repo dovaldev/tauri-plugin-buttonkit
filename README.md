@@ -38,38 +38,28 @@ fn main() {
 }
 ```
 
-### 3. Añadir el paquete JavaScript/TypeScript a tu proyecto
+### 3. Instalar el paquete JavaScript/TypeScript
 
-Como el paquete aún no está publicado en npm, hay dos opciones para usarlo:
+El paquete está disponible en npm, puedes instalarlo fácilmente con:
 
-#### Opción A: Mediante una referencia al repositorio Git
+```bash
+# Usando npm
+npm install tauri-plugin-buttonkit-api
 
-En tu archivo `package.json`, añade:
+# Usando yarn
+yarn add tauri-plugin-buttonkit-api
+
+# Usando pnpm
+pnpm add tauri-plugin-buttonkit-api
+```
+
+Alternativamente, si deseas usar la última versión de desarrollo, puedes instalarlo directamente desde GitHub:
 
 ```json
 "dependencies": {
   "tauri-plugin-buttonkit-api": "github:dovaldev/tauri-plugin-buttonkit"
 }
 ```
-
-Y luego ejecuta:
-
-```bash
-# Usando npm
-npm install
-
-# Usando yarn
-yarn
-
-# Usando pnpm
-pnpm install
-```
-
-#### Opción B: Copiando los archivos necesarios
-
-Alternativamente, puedes copiar el código de la API JavaScript directamente de la carpeta `guest-js` a tu proyecto y crear tus propios archivos de interfaz.
-
-El archivo principal está en `guest-js/index.ts` y defines la API para interactuar con el plugin desde tu código frontend.
 
 ## Uso
 
