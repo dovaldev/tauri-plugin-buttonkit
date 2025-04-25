@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/tauri-plugin-buttonkit"
+    "url": "https://github.com/dovaldev/tauri-plugin-buttonkit"
   },
   "type": "module",
   "types": "./dist-js/index.d.ts",
