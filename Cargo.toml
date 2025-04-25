@@ -1,0 +1,23 @@
+[package]
+name = "tauri-plugin-buttonkit"
+version = "0.1.0"
+authors = [ "Juan A. Doval" ]
+description = "Tauri plugin for detecting physical button presses on mobile devices"
+license = "MIT"
+repository = "https://github.com/yourusername/tauri-plugin-buttonkit"
+documentation = "https://docs.rs/tauri-plugin-buttonkit"
+homepage = "https://github.com/yourusername/tauri-plugin-buttonkit"
+edition = "2021"
+rust-version = "1.77.2"
+keywords = ["tauri", "plugin", "button", "mobile", "android"]
+categories = ["api-bindings", "mobile", "gui"]
+exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
+links = "tauri-plugin-buttonkit"
+
+[dependencies]
+tauri = { version = "2.5.0" }
+serde = "1.0"
+thiserror = "2"
+
+[build-dependencies]
+tauri-plugin = { version = "2.2.0", features = ["build"] }
