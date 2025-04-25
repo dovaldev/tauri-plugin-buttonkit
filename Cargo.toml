@@ -10,7 +10,7 @@ homepage = "https://github.com/dovaldev/tauri-plugin-buttonkit"
 edition = "2021"
 rust-version = "1.77.2"
 keywords = ["tauri", "plugin", "button", "mobile", "android"]
-categories = ["api-bindings", "gui", "multimedia", "os::mobile-apis"]
+categories = ["api-bindings", "gui", "multimedia::audio", "hardware-support"]
 exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-buttonkit"
 
